@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Weather Dashboard</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="app">
+    <h1>🌤️ Weather Dashboard</h1>
+
+    <!-- Search form -->
+    <div class="search">
+      <input id="locationInput" placeholder="Enter city or ZIP" />
+      <button id="btnWeather">Get Weather</button>
+      <button id="btnForecast">5‑Day Forecast</button>
+    </div>
+
+    <!-- Results -->
+    <div id="output"></div>
+
+    <!-- History & Controls -->
+    <div class="history-controls">
+      <button id="btnHistory">Show History</button>
+      <button id="btnClear">Clear History</button>
+      <select id="exportFormat">
+        <option value="json">Export JSON</option>
+        <option value="csv">Export CSV</option>
+      </select>
+      <button id="btnExport">Export</button>
+    </div>
+
+    <div id="history"></div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
+
+
