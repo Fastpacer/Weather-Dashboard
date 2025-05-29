@@ -112,7 +112,8 @@ pip install -r requirements.txt
 
 ## 📸 Demo Screenshot
 
-*(Optional: Add one when deployed)*
+![Weather_Project(DashBoard)](https://github.com/user-attachments/assets/abe02242-9c62-43e9-a918-b98dbd16bd23)
+
 
 ---
 
