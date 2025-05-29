@@ -127,6 +127,19 @@ This project was built to learn how to:
 
 
 ---
+🌐 Live API (Backend)
+Base URL:
+https://weather-dashboard-2-2uv4.onrender.com
+
+Available Endpoints
+Method	Endpoint	Description	Example URL
+GET	/	API health check	/
+GET	/weather?location=City	Current weather for a location	/weather?location=London
+GET	/forecast?location=City	5-day forecast for a location	/forecast?location=Seoul
+GET	/history	View past searched weather queries	/history
+GET	/clear	Clear search history	/clear
+GET	/export?format=json	Export history as JSON or CSV	/export?format=json
+
 
 ## 🧊 Author
 
