@@ -6,4 +6,4 @@ services:
     startCommand: uvicorn backend.app:app --host 0.0.0.0 --port 10000
     envVars:
       - key: OPENWEATHER_API_KEY
-        value: 37346f574cedbac66b34cfd69fe09092
+        value: your_actual_api_key
