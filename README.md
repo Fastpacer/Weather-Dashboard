@@ -124,7 +124,7 @@ This project was built to learn how to:
 * Build REST APIs using FastAPI
 * Integrate frontend with backend cleanly
 * Handle CORS and live reload issues
-* Deploy full-stack apps for free
+
 
 ---
 
